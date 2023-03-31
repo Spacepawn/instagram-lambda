@@ -1,5 +1,6 @@
 {
   "name": "instagram-lambda",
+  "description": "Instagrams clone build with AWS CDK, AWS Lambda, and AWS DynamoDB",
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
@@ -23,33 +24,37 @@
     "watch": "npx projen watch",
     "projen": "npx projen"
   },
+  "author": {
+    "name": "Spacepawn",
+    "organization": false
+  },
   "devDependencies": {
-    "@types/jest": "^29.4.0",
+    "@types/jest": "^29.5.0",
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^2.1.0",
-    "esbuild": "^0.17.10",
+    "aws-cdk": "^2.71.0",
+    "esbuild": "^0.17.14",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.7",
-    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-import-resolver-typescript": "^3.5.4",
     "eslint-plugin-import": "^2.27.5",
-    "jest": "^29.4.3",
-    "jest-junit": "^13",
+    "jest": "^29.5.0",
+    "jest-junit": "^15",
     "npm-check-updates": "^16",
-    "projen": "^0.67.66",
+    "projen": "^0.70.2",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.71.0",
     "constructs": "^10.0.5"
   },
   "engines": {
-    "node": ">= 18.0.0 <= 18.99.99"
+    "node": ">= 18.15.0 <= 18.99.99"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "version": "0.0.0",
   "jest": {
     "testMatch": [
